@@ -1,0 +1,15 @@
+.box_animate {
+    height: 50px;
+    width: 50px;
+    background: blue;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
